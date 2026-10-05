@@ -1,8 +1,14 @@
 {
   "id": "sigf/minecraft-jetpack-joyride-takeover",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "Jetpack Joyride Takeover",
   "tagline": "Bring Jetpack Joyride into the game in the most visible and funny way. The change shows in the first 30 seconds of play.",
+  "how_to_play": [
+    "Fly east through the endless Jetpack Joyride lab, collecting coins and dodging zappers and missiles.",
+    "You spawn wearing the jetpack: jump, then hold Jump in the air to fly; it machine-guns whatever is below you.",
+    "Hold Forward while flying to speed up; shoot scientists and jetpack guards to burst out more coins.",
+    "The lab hall starts a few blocks east of where you join; coins and distance show above your hotbar."
+  ],
   "kind": "mashup",
   "games": [
     {
@@ -30,10 +36,13 @@
       "strategy": "mrpack",
       "pack": {
         "src": "minecraft-jetpack-joyride-takeover.mrpack",
-        "url": "https://github.com/SIGFAI/minecraft-jetpack-joyride-takeover/releases/download/v1.0.0/minecraft-jetpack-joyride-takeover.mrpack",
-        "sha256": "43199a39f1a6618dae6448e200b9bab3749edc5145f3aae857feb209117f6ef1",
-        "size": 123602
-      }
+        "url": "https://github.com/SIGFAI/minecraft-jetpack-joyride-takeover/releases/download/v1.0.1/minecraft-jetpack-joyride-takeover.mrpack",
+        "sha256": "b9f0f462ca04251b4bca33fc41cb5cd41480040cb0c0c1c82b6aa196459a30a6",
+        "size": 123728
+      },
+      "jvm_args": [
+        "-Dsigf.player=1"
+      ]
     }
   ],
   "launch": [
@@ -45,9 +54,9 @@
   "files": [
     {
       "name": "minecraft-jetpack-joyride-takeover.mrpack",
-      "url": "https://github.com/SIGFAI/minecraft-jetpack-joyride-takeover/releases/download/v1.0.0/minecraft-jetpack-joyride-takeover.mrpack",
-      "sha256": "43199a39f1a6618dae6448e200b9bab3749edc5145f3aae857feb209117f6ef1",
-      "size": 123602
+      "url": "https://github.com/SIGFAI/minecraft-jetpack-joyride-takeover/releases/download/v1.0.1/minecraft-jetpack-joyride-takeover.mrpack",
+      "sha256": "b9f0f462ca04251b4bca33fc41cb5cd41480040cb0c0c1c82b6aa196459a30a6",
+      "size": 123728
     }
   ],
   "source": {
@@ -64,7 +73,7 @@
     "id": "minecraft",
     "status": "draft"
   },
-  "built_at": "2026-10-05T18:58:07.327Z",
+  "built_at": "2026-10-05T21:58:51.513Z",
   "server": {
     "game": "minecraft",
     "mc": "26.3",
@@ -72,8 +81,5 @@
     "ram_gb": 2,
     "max_players": 10,
     "pack": "minecraft-jetpack-joyride-takeover.mrpack"
-  },
-  "notes": [
-    "Drop the mod jar and Fabric API in your Minecraft 26.3 Fabric mods folder, start a world, and you spawn wearing the jetpack. Hold Jump in the air to fly and shoot, and follow the lab hall east."
-  ]
+  }
 }
