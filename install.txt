@@ -1,0 +1,1 @@
+Drop the mod jar and Fabric API in your Minecraft 26.3 Fabric mods folder, start a world, and you spawn wearing the jetpack. Hold Jump in the air to fly and shoot, and follow the lab hall east.

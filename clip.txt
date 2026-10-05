@@ -1,0 +1,6 @@
+Clip moments (tick only if seen in the demo footage):
+[x] 1. The bot wearing the red machine-gun jetpack lifts off the lab floor with flame jets while scientists scatter.
+[x] 2. Spinning gold coins are collected in trails and the COINS counter climbs.
+[x] 3. The jetpack gun and exhaust hit scientists and jetpack guards; they burst into coins.
+[x] 4. Electric zappers shock whatever touches them.
+[ ] 5. A siren "!" warning, then a rocket crosses the hall and explodes (weak: fast and seen from behind).
